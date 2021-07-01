@@ -11,7 +11,7 @@ namespace Lawpath_signup_tests.Pages
         //is a much cleaner approach, and this is the better practice for autoamtion. Actual ways of user interacting with the webpage will be simulated with public methods, and
         //for things that a user shouldn't be doing (such as things like finding the First Name field with the name attribute "firstName", will remain in private methods)
         
-        //The URL of the calculator to be opened in the browser
+        //The URL of the register page
         private const string SignUpUrl = "https://staging.lawpath.com.au/register";
 
         //The Selenium web driver to automate the browser
