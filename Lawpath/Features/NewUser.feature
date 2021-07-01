@@ -8,7 +8,7 @@ Scenario: User successfully creates a Lawpath account
 	Given John is on Lawpath registration page
 	When he enters all the required registration information for new user "<firstName>" , "<lastName>", "<phone>" and "<password>"
 	And he hits Sign Up
-	Then his Lawpath account is created
+	Then his Lawpath account is created and is redirected to the welcome page
 
 	Examples: 
 	| firstName | lastName | phone      |  password   |

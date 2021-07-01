@@ -118,7 +118,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.And("he hits Sign Up", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 11
- testRunner.Then("his Lawpath account is created", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("his Lawpath account is created and is redirected to the welcome page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

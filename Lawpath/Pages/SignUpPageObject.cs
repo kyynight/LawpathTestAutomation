@@ -7,9 +7,9 @@ namespace Lawpath_signup_tests.Pages
 {
     public class SignUpPageObject
     {
-        //This project could have been done in simply steps definition + feature file, however setting up a class for page object and another class for creating the driver instance
+        //This project could have been done with just steps definition + feature file, however setting up a class for page object and another class for creating the driver instance
         //is a much cleaner approach, and this is the better practice for autoamtion. Actual ways of user interacting with the webpage will be simulated with public methods, and
-        //for things that a user shouldn't be doing (such as things like finding the First Name field with the name attribute "firstName", should be private methods)
+        //for things that a user shouldn't be doing (such as things like finding the First Name field with the name attribute "firstName", will remain in private methods)
         
         //The URL of the calculator to be opened in the browser
         private const string SignUpUrl = "https://staging.lawpath.com.au/register";
@@ -36,11 +36,6 @@ namespace Lawpath_signup_tests.Pages
         private IWebElement emailDuplicateError;
 
 
-        private IWebElement FirstNumberElement => _webDriver.FindElement(By.Id("first-number"));
-        private IWebElement SecondNumberElement => _webDriver.FindElement(By.Id("second-number"));
-        private IWebElement AddButtonElement => _webDriver.FindElement(By.Id("add-button"));
-        private IWebElement ResultElement => _webDriver.FindElement(By.Id("result"));
-        private IWebElement ResetButtonElement => _webDriver.FindElement(By.Id("reset-button"));
 
         public void EnterFirstName(string s)
         {
@@ -129,7 +124,7 @@ namespace Lawpath_signup_tests.Pages
             {
                 //Since the error pop-up doesn't exist in the DOM (it's probably shown via some js code)
                 //This part is abit tricky and I chose the approach of taking a screenshot and verifying in report
-                //the screenshot can be found in .\TestResults\testresults, this screenshot will be updated everytime the test is run
+                //the screenshot can be found in ./TestResults/testresults/, this screenshot will be updated everytime the test is run
                 //also if url hasn't been changed after sign up button is clicked then it suggests that there's an error
 
                 //Timeout for 2secs for error pop-up to appear

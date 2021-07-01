@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using TechTalk.SpecFlow;
-using Lawpath_signup_tests.Drivers;
-using Lawpath_signup_tests.Pages;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Threading;
-using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
 namespace LawpathTestAutomation.Steps
@@ -22,6 +15,7 @@ namespace LawpathTestAutomation.Steps
         [Given(@"John has a bad internet connectivity")]
         public void JohnHasBadInternet()
         {
+            //network condition for a laggy browser
             driver.NetworkConditions = new ChromeNetworkConditions()
             { DownloadThroughput = 3, UploadThroughput = 3, Latency = TimeSpan.FromMilliseconds(1) };
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
@@ -52,6 +46,7 @@ namespace LawpathTestAutomation.Steps
             }
             else
             {
+                //success and quit if there is a timeout
                 driver.Quit();
             }
         }
