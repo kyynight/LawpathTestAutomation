@@ -1,1 +1,3 @@
 TestResults/**
+.vs/**
+Lawpath/bin/Debug/net461/**
