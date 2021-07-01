@@ -5,7 +5,7 @@
   <RunConfiguration>
     <ResultsDirectory>.\TestResults</ResultsDirectory>
    
-    <TestSessionTimeout>500000</TestSessionTimeout>
+    <TestSessionTimeout>20000</TestSessionTimeout>
 
     
 

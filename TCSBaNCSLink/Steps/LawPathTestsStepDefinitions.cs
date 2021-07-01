@@ -24,7 +24,7 @@ namespace Lawpath_signup_tests.Steps
             _signUpPageObject = new SignUpPageObject(browserDriver.Current);
         }
 
-        [Given(@"John is on Lawpath registration page")]
+        [Given(@"John is on Lawpath registration page")]       
         public void GivenJohnIsOnLawpathRegistrationPage()
         {
             _signUpPageObject.LocateToSignUp();

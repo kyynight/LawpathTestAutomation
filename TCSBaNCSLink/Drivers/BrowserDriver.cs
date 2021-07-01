@@ -9,7 +9,6 @@ namespace Lawpath_signup_tests.Drivers
     public class BrowserDriver : IDisposable
     {
         private readonly Lazy<IWebDriver> _currentWebDriverLazy;
-        private bool _isDisposed;
 
         public BrowserDriver()
         {
@@ -30,17 +29,7 @@ namespace Lawpath_signup_tests.Drivers
         /// Disposes the Selenium web driver (closing the browser) after the Scenario completed
         public void Dispose()
         {
-            if (_isDisposed)
-            {
-                return;
-            }
-
-            if (_currentWebDriverLazy.IsValueCreated)
-            {
-                Current.Quit();
-            }
-
-            _isDisposed = true;
+            Current.Quit();
         }
     }
 }

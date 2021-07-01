@@ -88,6 +88,11 @@ namespace Lawpath_signup_tests.Pages
             }
         }
 
+        public void NavigateToSignUp()
+        {
+            _webDriver.Navigate().GoToUrl(SignUpUrl);
+        }
+
         public void WaitForSuccessSignUpPage()
         {
             try
@@ -149,6 +154,12 @@ namespace Lawpath_signup_tests.Pages
         public string GetUrl()
         {
             return _webDriver.Url;
+        }
+
+        public void ClosePage()
+        {
+            //_webDriver.Quit();
+            _webDriver.Close();
         }
 
 

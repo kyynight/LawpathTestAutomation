@@ -1,0 +1,68 @@
+﻿2021-07-01T22:49:17.6066274+10:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-07-01T22:49:17.6066274+10:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.51 in Framework clr40 in x86 mode execution started
+2021-07-01T22:49:17.6066274+10:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Jono\.nuget\packages\specrun.runner\3.4.51\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-07-01T22:49:17.6066274+10:00;VSTestExecutionThread;Info;Current UserName: 'Jono', MachineName: 'DESKTOP-PJNP602'
+2021-07-01T22:49:17.6936467+10:00;VSTestExecutionThread;Info;SpecRun: running tests in E:\LawpathTestAutomation\TCSBaNCSLink\bin\Debug\net461\LawpathTestAutomation.dll
+2021-07-01T22:49:17.6936467+10:00;VSTestExecutionThread;Info;Output folder configured to "E:\LawpathTestAutomation\TestResults" (default)
+2021-07-01T22:49:17.6936467+10:00;VSTestExecutionThread;Info;Profile: TCSBaNCSLink
+2021-07-01T22:49:17.7176518+10:00;VSTestExecutionThread;Info;Log file path: E:\LawpathTestAutomation\TestResults\TCSBaNCSLink_TCSBaNCSLink_2021-07-01T224917.log
+2021-07-01T22:49:17.7216534+10:00;Thread#13;Info;Checking activation
+2021-07-01T22:49:17.7606626+10:00;Thread#13;Info;Activated.
+2021-07-01T22:49:17.7616621+10:00;Thread#13;Info;Activation check completed
+2021-07-01T22:49:17.7616621+10:00;Thread#13;Info;Starting test run
+2021-07-01T22:49:17.7836666+10:00;Thread#13;Info;Discovering target: Default
+2021-07-01T22:49:17.7836666+10:00;Thread#13;Info;Discovering tests from assembly: E:\LawpathTestAutomation\TCSBaNCSLink\bin\Debug\net461\LawpathTestAutomation.dll
+2021-07-01T22:49:17.9807121+10:00;Thread#13;Info;Discovered tests from assembly: E:\LawpathTestAutomation\TCSBaNCSLink\bin\Debug\net461\LawpathTestAutomation.dll
+2021-07-01T22:49:17.9817110+10:00:Test Suite Dump
+2021-07-01T22:49:17.9827121+10:00:#0: TCSBaNCSLink/TCSBaNCSLink - 
+2021-07-01T22:49:17.9827121+10:00:#1: Default - 
+2021-07-01T22:49:17.9827121+10:00:#2: LawpathTestAutomation - 
+2021-07-01T22:49:17.9827121+10:00:#9: TimeOut - 
+2021-07-01T22:49:18.0037167+10:00:#10: User successfully creates a Lawpath account - TestAssembly:LawpathTestAutomation/Feature:TimeOut/Scenario:User+successfully+creates+a+Lawpath+account
+2021-07-01T22:49:18.0037167+10:00:End: Test Suite Dump
+2021-07-01T22:49:18.0167200+10:00:Thread#0:Scheduler: get next test for thread 0
+2021-07-01T22:49:18.0187206+10:00:Thread#:Scheduler: testitem #10 from normal test queue 
+2021-07-01T22:49:18.0187206+10:00:Thread#0:Scheduler: considering testitem #10 for thread 0
+2021-07-01T22:49:18.0207212+10:00:Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+2021-07-01T22:49:18.0207212+10:00:Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+2021-07-01T22:49:18.0207212+10:00:Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+2021-07-01T22:49:18.0207212+10:00:Thread#0:Scheduler: using testitem #10 for thread 0
+2021-07-01T22:49:18.0217213+10:00:Thread#0:Scheduler: Test #10 is scheduled for thread
+2021-07-01T22:49:18.0227207+10:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-07-01T22:49:18.0237208+10:00:Thread #0: creating new test thread executor for LawpathTestAutomation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-07-01T22:49:18.0247213+10:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2021-07-01T22:49:18.0267219+10:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2021-07-01T22:49:18.0277223+10:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2021-07-01T22:49:18.1987602+10:00:Thread#0:T:-> Loading plugin E:\LawpathTestAutomation\TCSBaNCSLink\bin\Debug\net461\LivingDoc.SpecFlowPlugin.dll
+2021-07-01T22:49:18.2387700+10:00:Thread#0:T:-> Loading plugin E:\LawpathTestAutomation\TCSBaNCSLink\bin\Debug\net461\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-07-01T22:49:18.2417696+10:00:Thread#0:T:-> Using default config
+2021-07-01T22:49:18.5548393+10:00:Thread#0: Test #10/0 is started on thread #0
+2021-07-01T22:49:18.5718443+10:00:Thread#0:B:Given John has a bad internet connectivity
+2021-07-01T22:50:47.6579522+10:00:Thread#0:T:done: LatencyTestStepDefinitions.WhenJohnIsOnLawpathRegistrationPage() (89.0s)
+2021-07-01T22:50:47.6589526+10:00:Thread#0:B:When John locates to Lawpath registration page
+2021-07-01T22:50:59.6826465+10:00:Thread#0:T:done: LatencyTestStepDefinitions.WhenJohnIsOnLawpathRegistrationPage() (12.0s)
+2021-07-01T22:50:59.6826465+10:00:Thread#0:B:Then he should get a timeout
+2021-07-01T22:50:59.7126537+10:00:Thread#0:T:error: Assert.Fail failed. 
+2021-07-01T22:50:59.7216562+10:00:Cancelling because configured number of failures reached
+2021-07-01T22:51:03.7325549+10:00:Thread#0: Test #10/0 is finished on thread #0 as Failed within 105.1777156 seconds
+2021-07-01T22:51:05.2318908+10:00:Trying to cancel thread
+2021-07-01T22:51:05.2318908+10:00:Thread cancelled
+2021-07-01T22:51:05.2348916+10:00:Thread#-1:Scheduler: get next test for thread -1
+2021-07-01T22:51:05.2348916+10:00:Thread#:Scheduler: at the end of normal test queue
+2021-07-01T22:51:05.2348916+10:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-07-01T22:51:05.2358919+10:00;Thread#13;Info;test run finished
+2021-07-01T22:51:05.2358919+10:00;Thread#13;Info;publishing test results
+2021-07-01T22:51:05.2398927+10:00;Thread#13;Info;test results published
+2021-07-01T22:51:05.2398927+10:00;Thread#13;Info;generating reports
+2021-07-01T22:51:05.3039061+10:00;Thread#13;Info;Starting external report generation process
+2021-07-01T22:51:06.0180668+10:00;Thread#13;Info;Successfully generated reports.
+2021-07-01T22:51:06.0180668+10:00;Thread#13;Info;Successfully generated reports
+2021-07-01T22:51:06.0230674+10:00:Total: 1
+2021-07-01T22:51:06.0240676+10:00:Succeeded: 0
+2021-07-01T22:51:06.0250678+10:00:Ignored: 0
+2021-07-01T22:51:06.0250678+10:00:Pending: 0
+2021-07-01T22:51:06.0250678+10:00:Skipped: 0
+2021-07-01T22:51:06.0250678+10:00:Failed: 1
+2021-07-01T22:51:06.0320701+10:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2021-07-01T22:51:06.0320701+10:00;VSTestExecutionThread;Info;adding Test Execution Report 'E:\LawpathTestAutomation\TestResults\TCSBaNCSLink_TCSBaNCSLink_2021-07-01T224917.html'
+========== End of log file ==========
