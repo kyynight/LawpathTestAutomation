@@ -94,12 +94,12 @@ namespace Lawpath_signup_tests.Pages
             {
                 WebDriverWait wait = new WebDriverWait(_webDriver, TimeSpan.FromSeconds(DefaultWaitInSeconds));
                 //Upon successful sign up there should be a pop-up with an h3 header saying Welcome to Lawpath
-                IWebElement welcomeHeader = wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("/html/body/div[9]/div/div/div/span/div/div/div[1]/h3[1]")));
+                IWebElement welcomeHeader = wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//div[@class='introLHC p-4 my-md-3']/div/div/h3")));
                 if (welcomeHeader.Text != "Welcome to Lawpath!")
                     throw new Exception();
             }
             catch
-            { 
+            {             
                 throw new ElementNotVisibleException();
             }
         }
