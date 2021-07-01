@@ -1,0 +1,10 @@
+﻿2020-11-04T13:44:53.5440308+11:00;Thread#1;Info;Reading test run result from Json file "C:\Users\jonat\AppData\Local\Temp\tmp96DD.tmp".
+2020-11-04T13:44:53.5450068+11:00;Thread#1;Info;Successfully read test run result from Json file "C:\Users\jonat\AppData\Local\Temp\tmp96DD.tmp"
+2020-11-04T13:44:53.5450068+11:00;Thread#1;Info;Deserializing test run result
+2020-11-04T13:44:53.6401840+11:00;Thread#1;Info;Successfully deserialized test run result
+2020-11-04T13:44:53.6401840+11:00;Thread#1;Info;Loading test run result
+2020-11-04T13:44:53.6528718+11:00;Thread#1;Info;Successfully loaded test run result
+2020-11-04T13:44:53.6577520+11:00;Thread#1;Info;creating 1 report(s)
+2020-11-04T13:44:53.6577520+11:00;Thread#1;Info;generate Report ReportTemplate.cshtml
+2020-11-04T13:44:54.1726400+11:00;Thread#1;Info;Finished generating reports.
+========== End of log file ==========
