@@ -5,17 +5,27 @@ A project with four automated test cases for the sign-up page
 
 ## Prerequisite
 
-[Visual Studio 19](https://visualstudio.microsoft.com/downloads/)
+Install [Visual Studio 19](https://visualstudio.microsoft.com/downloads/)
+
+Install .NET desktop development workload for visual studio
 
 Make sure Chrome is up to date (Version 91 for the time being)
-
-If this is the first time using specflow+runner you'll need to register and activate it before you can run any tests
-[Activation Steps](https://docs.specflow.org/en/latest/specflowaccount.html#specflow-runner)
 
 
 ## Run Tests
 
-Tests can be run by opening this project in Visual Studio. On the top bar click on Test->Run All Tests
+Clone repository to a folder
+
+Open the solution with Visual Studio 19
+
+Build the solution after opening
+
+Tests can be run after building this project in Visual Studio. On the top bar click on Test->Run All Tests
+
+If this is the first time using specflow+runner you'll find out that your test is not running,
+
+you'll need to register and activate it before you can run any tests
+[Activation Steps](https://docs.specflow.org/en/latest/specflowaccount.html#specflow-runner)
 
 The automatically generated test report can be found in the ./TestResults/ directory
 
