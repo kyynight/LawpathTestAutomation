@@ -465,8 +465,8 @@
         <li>Project: TCSBaNCSLink</li>
         <li>Configuration: TCSBaNCSLink</li>
         <li>Test Assemblies: E:\LawpathTestAutomation\TCSBaNCSLink\bin\Debug\net461\LawpathTestAutomation.dll</li>
-        <li>Start Time: 7/2/2021 12:24:02 AM</li>
-        <li>Duration: 00:00:13.3409908</li>
+        <li>Start Time: 7/2/2021 12:28:58 AM</li>
+        <li>Duration: 00:00:09.7021756</li>
         <li>Test Threads: 1</li>
     </ul>
 
@@ -534,8 +534,8 @@
         <a
             class="bar colorSucceeded" 
             style="width: 3px;" 
-                title="User sign up with a badly formatted email, John (in IncorrectInput)" 
-                href="#t-949611234.0"
+                title="User sign up with a duplicated account, John (in ExistingUser)" 
+                href="#t1637229751.0"
         >&nbsp;</a>
     </td>
                                     </tr>
@@ -590,12 +590,12 @@
                 <tr class="testview-items-row">
                     <td class="left-padding">&nbsp;</td>
     <td class="testview-item" 
-        data-sr-exectime="11.1064904" data-sr-rescode="110" data-sr-order="0" data-sr-acttime="0.477">
+        data-sr-exectime="7.3696517" data-sr-rescode="110" data-sr-order="0" data-sr-acttime="0.545">
         <a
             class="bar colorSucceeded" 
             style="height: 60px;"
-            title="User sign up with a badly formatted email, John (in IncorrectInput)"
-            href="#t-949611234.0">&nbsp;</a>
+            title="User sign up with a duplicated account, John (in ExistingUser)"
+            href="#t1637229751.0">&nbsp;</a>
     </td>
                     <td class="right-padding">&nbsp;</td>
                 </tr>
@@ -625,7 +625,7 @@
 
 
             <tr>
-                <td><a href="#f2062195481">IncorrectInput</a></td>
+                <td><a href="#f875642942">ExistingUser</a></td>
                     <td>
             100%
     </td>
@@ -648,7 +648,7 @@
     <td>0</td>
     <td>0</td>
     <td>0</td>
-        <td>00:00:11.1064904</td>
+        <td>00:00:07.3696517</td>
 
             </tr>
     </table>
@@ -671,11 +671,11 @@
         </table>
 
         <h2>Scenario Summary</h2>
-            <a name="f2062195481" />
-            <h3>Feature: IncorrectInput</h3>
-                <div class="description"><pre>	In order to check for errors in input field
-	As a product owner
-	I want the application to validate for a proper email input field</pre>
+            <a name="f875642942" />
+            <h3>Feature: ExistingUser</h3>
+                <div class="description"><pre>	In order to avoid duplicate sign up
+	As an existing user
+	I want the system to throw an error when there&#39;s a duplication in sign up</pre>
                 </div>
             <table class="testEvents">
                     <tr>
@@ -692,7 +692,7 @@
 
                     <tr>
                         <td>
-                                    <a href="#t-949611234.0">Scenario: User sign up with a badly formatted email, John</a>
+                                    <a href="#t1637229751.0">Scenario: User sign up with a duplicated account, John</a>
 
                         </td>
                         
@@ -718,22 +718,22 @@
     <td>0</td>
     <td>0</td>
     <td>0</td>
-        <td>00:00:11.1064904</td>
+        <td>00:00:07.3696517</td>
 
                         
                     </tr>
             </table>
 
         <h2>Execution Details</h2>
-            <a name="t-949611234.0" />
-            <h3>Scenario: User sign up with a badly formatted email, John (in LawpathTestAutomation, IncorrectInput)</h3>
+            <a name="t1637229751.0" />
+            <h3>Scenario: User sign up with a duplicated account, John (in LawpathTestAutomation, ExistingUser)</h3>
                 <div class="description">
                     tags: mytag
                 </div>
             <ul>
                 <li>Status: Succeeded</li>
-                <li>Start time: 7/2/2021 12:24:03 AM</li>
-                <li>Execution time (sec): 11.1064904</li>
+                <li>Start time: 7/2/2021 12:28:59 AM</li>
+                <li>Execution time (sec): 7.3696517</li>
                 <li>Thread: #0</li>
             </ul>
             <table class="testEvents">
@@ -747,41 +747,40 @@
                             <pre class="log">Given John is on Lawpath registration page</pre>
                         </td>
                         <td>
-                            <!-- [TestArrange: Scenario - User sign up with a badly formatted email, John] -->
-                            <pre class="log">done: LawPathTestsStepDefinitions.GivenJohnIsOnLawpathRegistrationPage() (6.2s)</pre>
+                            <!-- [TestArrange: Scenario - User sign up with a duplicated account, John] -->
+                            <pre class="log">done: LawPathTestsStepDefinitions.GivenJohnIsOnLawpathRegistrationPage() (6.0s)</pre>
                         </td>
-                        <td>Succeeded in 6.225s</td>
+                        <td>Succeeded in 6.117s</td>
                     </tr>
                     <tr>
                         <td>
-                            <pre class="log">When he enters registration information with a badly formatted email &quot;John&quot; , &quot;Wick&quot;, &quot;124356&quot;, &quot;123&quot; and &quot;HelenDaisy&quot;</pre>
+                            <pre class="log">When he enters registration information of an existing account &quot;John&quot; , &quot;Wick&quot;, &quot;124356&quot;, &quot;123@333.com&quot; and &quot;HelenDaisy&quot;</pre>
                         </td>
                         <td>
-                            <!-- [TestAct: Scenario - User sign up with a badly formatted email, John] -->
-                            <pre class="log">done: LawPathTestsStepDefinitions.WhenHeEntersAllTheRequiredRegistrationInformationAnd(&quot;John&quot;, &quot;Wick&quot;, &quot;124356&quot;, &quot;123&quot;, &quot;HelenDaisy&quot;) (0.4s)</pre>
+                            <!-- [TestAct: Scenario - User sign up with a duplicated account, John] -->
+                            <pre class="log">done: LawPathTestsStepDefinitions.WhenHeEntersAllTheRequiredRegistrationInformationAnd(&quot;John&quot;, &quot;Wick&quot;, &quot;124356&quot;, &quot;123@333.com&quot;, &quot;HelenDaisy&quot;) (0.5s)</pre>
                         </td>
-                        <td>Succeeded in 0.421s</td>
+                        <td>Succeeded in 0.458s</td>
                     </tr>
                     <tr>
                         <td>
                             <pre class="log">And he hits Sign Up</pre>
                         </td>
                         <td>
-                            <!-- [TestAct: Scenario - User sign up with a badly formatted email, John] -->
+                            <!-- [TestAct: Scenario - User sign up with a duplicated account, John] -->
                             <pre class="log">done: LawPathTestsStepDefinitions.WhenHeHitsSignUp() (0.1s)</pre>
                         </td>
-                        <td>Succeeded in 0.056s</td>
+                        <td>Succeeded in 0.087s</td>
                     </tr>
                     <tr>
                         <td>
-                            <pre class="log">Then an error of badly formatted email should be thrown</pre>
+                            <pre class="log">Then an error of account duplication should be thrown</pre>
                         </td>
                         <td>
-                            <!-- [TestAssert: Scenario - User sign up with a badly formatted email, John] -->
-                            <pre class="log">Screenshot: <a href='testresults/BadlyFormattedEmail_screenshot.png'>BadlyFormattedEmail_screenshot.png</a>
-done: LawPathTestsStepDefinitions.ThenAnErrorOfBadlyFormattedEmailShouldBeThrown() (4.2s)</pre>
+                            <!-- [TestAssert: Scenario - User sign up with a duplicated account, John] -->
+                            <pre class="log">done: LawPathTestsStepDefinitions.ThenAnErrorOfAccountDuplicationShouldBeThrown() (0.5s)</pre>
                         </td>
-                        <td>Succeeded in 4.206s</td>
+                        <td>Succeeded in 0.545s</td>
                     </tr>
             </table>
 	</body>
