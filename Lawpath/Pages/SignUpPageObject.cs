@@ -20,9 +20,12 @@ namespace Lawpath_signup_tests.Pages
         //The default wait time in seconds for wait.Until
         public const int DefaultWaitInSeconds = 15;
 
+        public WebDriverWait wait1;
+
         public SignUpPageObject(IWebDriver webDriver)
         {
             _webDriver = webDriver;
+            wait1 = new WebDriverWait(_webDriver, TimeSpan.FromSeconds(DefaultWaitInSeconds));
         }
 
         //Finding elements by name
@@ -31,7 +34,8 @@ namespace Lawpath_signup_tests.Pages
         private IWebElement phone => _webDriver.FindElement(By.Name("phone"));
         private IWebElement email => _webDriver.FindElement(By.Name("email"));
         private IWebElement password => _webDriver.FindElement(By.Name("password"));
-        private IWebElement signUpBtn => _webDriver.FindElement(By.Id("signup-submit"));
+
+        private IWebElement signUpBtn => wait1.Until(ExpectedConditions.ElementToBeClickable(By.Id("signup-submit")));
 
         private IWebElement emailDuplicateError;
 
